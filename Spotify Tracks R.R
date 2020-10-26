@@ -14,7 +14,7 @@ library(tseries)
 ###################################################################
 
 ### import dataset
-spotify_data <- read.csv("C:/Users/grego/OneDrive/Study/School/USD/Fall 2020/ECON 494/First Project/Datasets/Spotify Tracks DB/Full Data/Spotify Tracks.csv")
+spotify_data <- read.csv("https://raw.githubusercontent.com/gregoriodelrio/PROJECT-1-ECON-494-F20/main/Spotify%20Tracks.csv")
 
 ### correcting variable headers
 var_names <- c("genre", "popularity", "acousticness", "danceability", "duration_min", "energy", "instrumentalness", "loudness", "speechiness", "tempo")
